@@ -15,7 +15,8 @@ Reference for the air-drumming system: two ESP32-S3 sticks --> ESP32-S3 hub --> 
 | :--- | :--- | :--- |
 | `stick_firmware.ino` | Both sticks | IMU fusion, hit detection, calibration, battery |
 | `spacedrums_2_hub.ino` | ESP32-S3 | ESP-NOW receiver, foot pedals, serial bridge |
-| `audio_hub.py` | PC | Sample playback, kit UI, battery display. Can use Android app from releases instead |
+| `audio_hub.py` | PC |Optional. Sample playback, kit UI, battery display. |
+| `SpaceDrums.apk` | Android | Use this instead of the PC app. Sample playback, kit UI, battery display. |
 
 ---
 
